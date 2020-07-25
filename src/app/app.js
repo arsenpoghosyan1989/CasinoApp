@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Route, Switch } from "react-router-dom";
-import { HomePage, AboutPage } from "../pages/index";
-import { Button, Modal } from "react-bootstrap";
+import { Route, Switch, Link } from "react-router-dom";
+import { HomePage, AboutPage } from "../components/pages/index";
+import { Modal } from "react-bootstrap";
 import "./app.scss";
 
 const App = function () {
@@ -12,9 +12,12 @@ const App = function () {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Link to="/" onClick={handleShow} className="btn btn-primary">
         Provider List
-      </Button>
+      </Link>
+      <Link to="/about" onClick={handleShow} className="btn btn-default">
+        About Ucraft
+      </Link>
 
       <Modal show={show} onHide={handleClose} className="modalContainer">
         <Modal.Header closeButton>

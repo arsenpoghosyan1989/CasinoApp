@@ -5,7 +5,7 @@ import CasinoService from "./services/casino-service";
 import { CasinoServiceProvider } from "./components/casino-Service-Context";
 import { BrowserRouter as Router } from "react-router-dom";
 import ErrorBoundry from "./components/error-boundry";
-import App from "./components/app";
+import App from "./app";
 
 const casinoService = new CasinoService();
 console.log(casinoService);
