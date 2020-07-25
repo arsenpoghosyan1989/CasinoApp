@@ -1,0 +1,31 @@
+.tabsBlock .form-group {
+    display: flex;
+}
+
+.tabsBlock label {
+    width: 150px;
+    float: left;
+}
+
+.filterComponent .form-group {
+    margin-left: 30px;
+}
+
+.filterComponent .form-group .form-control {
+    display: inline-block;
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .tabsBlock label {
+        width: 100px;
+        padding: 13px 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tabsBlock label {
+        width: 80px;
+        padding: 13px 0px;
+    }
+}

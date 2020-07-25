@@ -1,0 +1,24 @@
+.rating {
+  color: brown;
+  font-size: 10px;
+
+  span {
+    text-decoration: underline;
+  }
+}
+
+.statusBadge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.on {
+  background-color: darkgreen !important;
+}
+
+.off {
+  background-color: tomato !important;
+}

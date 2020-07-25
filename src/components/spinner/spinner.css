@@ -1,0 +1,15 @@
+.spinner {
+    display: inline-block;
+    margin: 100px 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+}
+
+.loading {
+    display: inline-block;
+    margin-top: -25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}

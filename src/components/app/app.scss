@@ -1,0 +1,23 @@
+.modalContainer {
+    padding: 0 20px !important;
+
+    .modal-header {
+        border: none;
+
+        .modal-title {
+            margin-left: auto;
+            font-size: 14px;
+        }
+    }
+
+    .modal-dialog {
+        max-width: 100%;
+        margin: 17px 0px;
+    }
+
+    .modal-body {
+        .infinite-scroll-component {
+            overflow: unset !important;
+        }
+    }
+}
