@@ -1,13 +1,21 @@
 import React from "react";
+import shortid from "shortid";
 
 const FilterComponent = function ({ providers, filter, handleFilterChange }) {
   const RenderOptions = (field = "") => {
+    const nameArray = [];
     return providers.map((provider) => {
-      return (
-        <option value={provider[field]} key={provider[field]}>
-          {provider[field]}
-        </option>
-      );
+      if (!nameArray.includes(provider[field])) {
+        nameArray.push(provider[field]);
+        return (
+          <option
+            value={provider[field]}
+            key={provider[field] + shortid.generate()}
+          >
+            {provider[field]}
+          </option>
+        );
+      }
     });
   };
   const { category, provider, status, count } = filter;
@@ -25,7 +33,12 @@ const FilterComponent = function ({ providers, filter, handleFilterChange }) {
           />
           <i
             className="fa fa-search"
-            style={{ position: "absolute", right: "5px", top: 0, color:'lightgray' }}
+            style={{
+              position: "absolute",
+              right: "5px",
+              top: 0,
+              color: "lightgray",
+            }}
           ></i>
         </div>
         <select

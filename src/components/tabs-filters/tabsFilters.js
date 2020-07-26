@@ -8,7 +8,6 @@ const TabsFilters = function ({ state, handleTabClick, handleFilterChange }) {
     providers,
     tabFilter: { tab, filter },
   } = state;
-  console.log(filter);
   return (
     <div>
       <TabsComponent tab={tab} handleTabClick={handleTabClick} />
@@ -20,6 +19,5 @@ const TabsFilters = function ({ state, handleTabClick, handleFilterChange }) {
     </div>
   );
 };
-
 
 export default TabsFilters;

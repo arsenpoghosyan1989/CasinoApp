@@ -1,5 +1,7 @@
 .tabsBlock .form-group {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tabsBlock label {
@@ -27,5 +29,11 @@
     .tabsBlock label {
         width: 80px;
         padding: 13px 0px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .filterComponent .form-group .form-control {
+        width: 100%;
     }
 }

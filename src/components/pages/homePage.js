@@ -26,19 +26,22 @@ class HomePage extends Component {
 
   fetchAgain = () => {
     let { start } = this.state;
+    let { tab } = this.state.tabFilter;
     let { count } = this.state.tabFilter.filter;
-    this.props.CasinoService.getProviders(start, count).then((res) => {
+    this.props.CasinoService.getProviders(start, count, tab).then((res) => {
       let newProviders = [...this.state.providers, ...res];
       let next = start + count;
       this.setState({ providers: newProviders, start: next });
     });
   };
+
   handleTabClick = (value) => {
     let newTabFilter = this.state.tabFilter;
     newTabFilter.tab = value;
     this.setState({ tabFilter: newTabFilter, providers: [] });
     this.fetchAgain();
   };
+
   handleFilterChange = (e) => {
     const setStateFilterValue = (label, value) => {
       let newTabFilter = this.state.tabFilter;
@@ -65,6 +68,7 @@ class HomePage extends Component {
         console.log("n");
     }
   };
+  
   render() {
     return (
       <>

@@ -6,6 +6,9 @@ body {
     height: 64vh;
     overflow-y: auto;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 ul {
@@ -13,9 +16,7 @@ ul {
 
     li {
         list-style: none;
-        margin: 15px;
         width: 250px;
-        float: left;
         height: 270px;
     }
 }

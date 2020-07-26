@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <>
       <h1 className="animate__animated animate__slideInDown">About us</h1>
-      <p>
+      <p className="animate__animated animate__slideInUp">
         Ucraft is a tech company founded in 2014 by a group of design
         enthusiasts. We are trusted by 360.000 active users from all over the
         world.

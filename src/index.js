@@ -8,7 +8,6 @@ import ErrorBoundry from "./components/error-boundry";
 import App from "./app";
 
 const casinoService = new CasinoService();
-console.log(casinoService);
 
 ReactDOM.render(
   <ErrorBoundry>
