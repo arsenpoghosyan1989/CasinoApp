@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/CasinoApp/static/css/main.f4668edb.chunk.css",
+    "main.js": "/CasinoApp/static/js/main.cada517d.chunk.js",
+    "main.js.map": "/CasinoApp/static/js/main.cada517d.chunk.js.map",
+    "runtime-main.js": "/CasinoApp/static/js/runtime-main.fce21c98.js",
+    "runtime-main.js.map": "/CasinoApp/static/js/runtime-main.fce21c98.js.map",
+    "static/js/2.38ed0e35.chunk.js": "/CasinoApp/static/js/2.38ed0e35.chunk.js",
+    "static/js/2.38ed0e35.chunk.js.map": "/CasinoApp/static/js/2.38ed0e35.chunk.js.map",
+    "index.html": "/CasinoApp/index.html",
+    "precache-manifest.a23e7b9b7663ada70956be39c32582bf.js": "/CasinoApp/precache-manifest.a23e7b9b7663ada70956be39c32582bf.js",
+    "service-worker.js": "/CasinoApp/service-worker.js",
+    "static/css/main.f4668edb.chunk.css.map": "/CasinoApp/static/css/main.f4668edb.chunk.css.map",
+    "static/js/2.38ed0e35.chunk.js.LICENSE.txt": "/CasinoApp/static/js/2.38ed0e35.chunk.js.LICENSE.txt",
+    "static/media/1.PNG": "/CasinoApp/static/media/1.9808255f.PNG",
+    "static/media/2.PNG": "/CasinoApp/static/media/2.0434c4f6.PNG",
+    "static/media/3.PNG": "/CasinoApp/static/media/3.2fb49cbd.PNG",
+    "static/media/4.PNG": "/CasinoApp/static/media/4.8c904e68.PNG",
+    "static/media/5.PNG": "/CasinoApp/static/media/5.5d72f711.PNG",
+    "static/media/6.PNG": "/CasinoApp/static/media/6.10e88f99.PNG",
+    "static/media/7.PNG": "/CasinoApp/static/media/7.d16f4f66.PNG",
+    "static/media/dot.gif": "/CasinoApp/static/media/dot.cd2b8065.gif",
+    "static/media/spinner.gif": "/CasinoApp/static/media/spinner.bc442313.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fce21c98.js",
+    "static/js/2.38ed0e35.chunk.js",
+    "static/css/main.f4668edb.chunk.css",
+    "static/js/main.cada517d.chunk.js"
+  ]
+}
