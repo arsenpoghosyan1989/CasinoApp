@@ -1,10 +1,12 @@
 import React from "react";
+import { sortByName } from "../../utils";
 import shortid from "shortid";
 
 const FilterComponent = function ({ providers, filter, handleFilterChange }) {
   const RenderOptions = (field = "") => {
+    const sortedProviders = sortByName(providers, field);
     const nameArray = [];
-    return providers.map((provider) => {
+    return sortedProviders.map((provider) => {
       if (!nameArray.includes(provider[field])) {
         nameArray.push(provider[field]);
         return (
