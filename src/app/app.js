@@ -16,7 +16,7 @@ const App = function () {
         Provider List
       </Link>
       <Link to="/about" onClick={handleShow} className="btn btn-default">
-        About Ucraft
+        About Provider
       </Link>
 
       <Modal show={show} onHide={handleClose} className="modalContainer">
