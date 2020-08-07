@@ -8,7 +8,7 @@ import img7 from "../img/7.PNG";
 import shortid from "shortid";
 
 const images = [img1, img2, img3, img4, img5, img6, img7];
-const names = ["BETCONSTRUCT", "NetEnt", "Playtech", "DragonFish", "Novomatic"];
+const names = ["IGT", "NetEnt", "Playtech", "DragonFish", "Novomatic"];
 const titles = [
   "Fashon Show",
   "Fashion Club DAPP",
